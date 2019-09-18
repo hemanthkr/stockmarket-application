@@ -22,6 +22,13 @@ public class Sector {
 	public Sector() {
 		super();
 	}
+	
+	public Sector(int id, String name, String brief) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.brief = brief;
+	}
 
 	public Sector(String name, String brief) {
 		super();

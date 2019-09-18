@@ -48,6 +48,17 @@ public class Profile {
 		this.mobile = mobile;
 		this.confirmed = confirmed;
 	}
+	
+	public Profile(String username, String password, String role, String email, String mobile,
+			String confirmed) {
+		super();
+		this.username = username;
+		this.password = password;
+		this.role = role;
+		this.email = email;
+		this.mobile = mobile;
+		this.confirmed = confirmed;
+	}
 
 	public int getId() {
 		return id;

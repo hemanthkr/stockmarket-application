@@ -47,6 +47,18 @@ public class Company {
 		this.about = about;
 		this.status = status;
 	}
+	
+	public Company(String name, String ceo, String boardOfDirectors, Sector sector, String about,
+			String status) {
+		super();
+		this.name = name;
+		this.ceo = ceo;
+		this.boardOfDirectors = boardOfDirectors;
+		this.sector = sector;
+		this.about = about;
+		this.status = status;
+	}
+
 
 	public int getId() {
 		return id;
