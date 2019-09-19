@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
+
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { RegisterCompanyComponent } from './admin/register-company/register-company.component';
@@ -26,6 +27,7 @@ import { CompanyService } from './shared/services/company.service';
 import { IpoDetailService } from './shared/services/ipo-detail.service';
 import { ProfileService } from './shared/services/profile.service';
 import { StockpriceService } from './shared/services/stockprice.service';
+import { StockexchangeListComponent } from './admin/stockexchange-list/stockexchange-list.component';
 
 
 @NgModule({
@@ -47,7 +49,8 @@ import { StockpriceService } from './shared/services/stockprice.service';
     HandleIpoComponent,
     ProfileUpdateComponent,
     ProfileComponent,
-    SignUpComponent
+    SignUpComponent,
+    StockexchangeListComponent
   ],
   imports: [
     BrowserModule,

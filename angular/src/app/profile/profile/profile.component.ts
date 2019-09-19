@@ -8,10 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class ProfileComponent implements OnInit {
 
   role: String = "USER";
+  username: String = "user1";
 
   constructor() { }
 
   ngOnInit() {
   }
-
 }

@@ -13,6 +13,7 @@ import { ProfileComponent } from './profile/profile/profile.component';
 import { DetailsComponent } from './profile/details/details.component';
 import { ProfileUpdateComponent } from './profile/profile-update/profile-update.component';
 import { HandleIpoComponent } from './profile/handle-ipo/handle-ipo.component';
+import { StockexchangeListComponent } from './admin/stockexchange-list/stockexchange-list.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -24,10 +25,11 @@ const routes: Routes = [
       { path: '', component: StockpriceUploadComponent },
       { path: 'stockprice-upload', component: StockpriceUploadComponent },
       { path: 'register-company', component: RegisterCompanyComponent },
-      { path: 'company-update', component: CompanyUpdateComponent },
+      { path: 'company-update/:id', component: CompanyUpdateComponent },
       { path: 'add-stockexchange', component: AddStockexchangeComponent },
       { path: 'company-list', component: CompanyListComponent },
-      { path: 'ipo-revise', component: IpoReviseComponent }
+      { path: 'ipo-revise', component: IpoReviseComponent },
+      { path: 'list-stockexchange', component: StockexchangeListComponent }
     ]
   },
   {
